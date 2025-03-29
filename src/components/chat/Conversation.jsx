@@ -177,7 +177,7 @@ const Conversation = () => {
         }}
       >
         {activeConversation.messages.map((message, index) => (
-          <ChatMessage
+          <ChatInput
             key={message.id}
             message={message}
             onFeedback={(feedbackType, value) =>

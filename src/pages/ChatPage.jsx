@@ -1,7 +1,7 @@
 // src/pages/ChatPage.jsx
 import React from "react";
 import { Box, Toolbar } from "@mui/material";
-import Conversation from "../components/Chat/Conversation.jsx";
+import Conversation from "../components/Chat/Conversation";
 
 const ChatPage = () => {
   return (

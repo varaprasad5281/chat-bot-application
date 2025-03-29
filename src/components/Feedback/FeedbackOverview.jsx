@@ -115,7 +115,6 @@ const FeedbackOverview = () => {
                 <TableCell>
                   <TableSortLabel
                     active={sortField === "date"}
-                    active={sortField === "date"}
                     direction={sortField === "date" ? sortDirection : "asc"}
                     onClick={() => handleSort("date")}
                   >
