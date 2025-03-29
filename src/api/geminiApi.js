@@ -2,6 +2,8 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // Use a valid model name (replace 'gemini-2.0-flash' with the correct one)
 const API_KEY = import.meta.env.VITE_GOOGLE_API_KEY; // Make sure the API key is set up correctly
+
+console.log(API_KEY);
 const genAI = new GoogleGenerativeAI({ apiKey: API_KEY });
 
 export const getChatResponse = async (prompt) => {

@@ -7,12 +7,12 @@ import {
   updateMessageFeedback,
   selectActiveConversation,
   saveConversationAsync,
-} from "../../redux/slices/conversationsSlice";
-import ChatMessage from "./ChatMessage";
-import ChatInput from "./ChatInput";
-import ConversationRating from "../Feedback/ConversationRating";
-import ShareConversation from "../Shared/ShareConversation";
-import { getChatResponse } from "../../api/geminiApi";
+} from "../../redux/slices/conversationsSlice.js";
+import ChatMessage from "./ChatMessage.jsx";
+import ChatInput from "./ChatInput.jsx";
+import ConversationRating from "../Feedback/ConversationRating.jsx";
+import ShareConversation from "../Shared/ShareConversation.jsx";
+import { getChatResponse } from "../../api/geminiApi.js";
 
 const Conversation = () => {
   const dispatch = useDispatch();
