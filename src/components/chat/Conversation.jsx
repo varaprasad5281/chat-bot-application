@@ -8,7 +8,6 @@ import {
   selectActiveConversation,
   saveConversationAsync,
 } from "../../redux/slices/conversationsSlice.js";
-import ChatMessage from "./ChatMessage.jsx";
 import ChatInput from "./ChatInput.jsx";
 import ConversationRating from "../Feedback/ConversationRating.jsx";
 import ShareConversation from "../Shared/ShareConversation.jsx";
